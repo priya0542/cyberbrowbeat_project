@@ -127,3 +127,4 @@ sns.heatmap(data_1.corr(), linewidths=.5)
 #Histogram
 fig, axis = plt.subplots(2,3,figsize=(8, 8))
 data_1.hist(ax=axis)
+st.pyplot(fig=None, clear_figure=None, **kwargs)
