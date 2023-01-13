@@ -7,7 +7,7 @@ Created on Mon Oct  3 18:08:48 2022
 
 import pandas as pd 
 import numpy as np
-import streamlit as st
+#import streamlit as st
 #import matplotlib
 #from matplotlib import pyplot as plt
 import matplotlib.pyplot as plt
@@ -130,4 +130,4 @@ sns.heatmap(data_1.corr(), linewidths=.5)
 #Histogram
 fig, axis = plt.subplots(2,3,figsize=(8, 8))
 data_1.hist(ax=axis)
-st.pyplot(fig=None, clear_figure=None, **kwargs)
+#st.pyplot(fig=None, clear_figure=None, **kwargs)
