@@ -21,8 +21,8 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 #Importing data set
-#data=pd.read_csv(r'C:\Users\DELL\Documents\flask11\BrowbeatDataset.csv')
-data=pd.read_csv(r'test-sample_dataset.csv')
+data=pd.read_csv(r'C:\Users\HP\OneDrive\Desktop\MY FOLDER\FINAL YEAR PROJECT\test-sample_dataset.csv')
+#data=pd.read_csv(r'test-sample_dataset.csv')
 
 #remove repeated(duplicates) tweets
 data.drop_duplicates(inplace = True)
